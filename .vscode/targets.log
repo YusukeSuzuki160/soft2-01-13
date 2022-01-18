@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jan 14 22:11:06 2022
+# Make data base, printed on Tue Jan 18 14:14:04 2022
 
 # Variables
 
@@ -237,14 +239,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 130 B / avg = 8 B
-# current buf: size = 8162 B / used = 130 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 131 B / avg = 8 B
+# current buf: size = 8162 B / used = 131 B / count = 15 / avg = 8 B
 
 # strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
 # Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Fri Jan 14 22:11:06 2022
+# Finished Make data base on Tue Jan 18 14:14:04 2022
 
- 
-make: *** No rule to make target 'all'.  Stop.
  

@@ -4,13 +4,15 @@
 
 int main(int argc, char **argv)
 {
-    if (argc != 2) {
-	fprintf(stderr, "usage: %s <filename>\n",argv[0]);
-	exit(1);
+    if (argc != 2)
+    {
+        fprintf(stderr, "usage: %s <filename>\n", argv[0]);
+        exit(1);
     }
-    
+
     Node *root = encode(argv[1]);
-    traverse_tree(0,root);
-    
+    traverse_tree(0, root);
+    printf(".\n");
+    print_node(root, -1);
     return EXIT_SUCCESS;
 }
