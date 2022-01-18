@@ -4,7 +4,7 @@ CFLAGS = -Wall -Iinclude
 SRCS = $(wildcard src/*.c)
 OBJS = $(SRCS:%.c=%.o)
 
-TARGET = bin/huffman
+TARGET = bin/huffman0
 
 $(TARGET): $(OBJS)
 	$(CC) -o $@ $^ $(LDLIBS)
