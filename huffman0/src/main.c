@@ -14,5 +14,6 @@ int main(int argc, char **argv)
     traverse_tree(0, root);
     printf(".\n");
     print_node(root, -1);
+    free_node(root);
     return EXIT_SUCCESS;
 }

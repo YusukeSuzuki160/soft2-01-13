@@ -17,3 +17,5 @@ Node *encode(const char *filename);
 void traverse_tree(const int depth, Node *root);
 
 void print_node(const Node *np, int flag);
+
+void free_node(Node *root);

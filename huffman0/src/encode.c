@@ -314,3 +314,16 @@ Node *encode(const char *filename)
     fflush(stdout);
     return root;
 }
+
+void free_node(Node *root)
+{
+    if (root->right == NULL)
+    {
+        free(root);
+    }
+    else
+    {
+        free(root->right);
+        free(root->left);
+    }
+}
